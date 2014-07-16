@@ -1,0 +1,38 @@
+2014/07/15 17:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "alumnos".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('alumnos')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ExamenFinal\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ExamenFinal/index.php?r=alumnos
+---
+2014/07/16 15:44:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tiav.nombre' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `nombre`.
+in C:\xampp\htdocs\alumno\index.php (13)
+2014/07/16 15:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php:90
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionCode()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('code')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/code')
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\alumno\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/alumno/index.php?r=gii/model/code&id=0
+HTTP_REFERER=http://localhost/alumno/index.php?r=gii/model/index
+---
+2014/07/16 16:05:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tiav.alumont' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `alumont`.
+in C:\xampp\htdocs\alumno\index.php (13)
+2014/07/16 16:05:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tiav.alumont' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `alumont`.
+in C:\xampp\htdocs\alumno\index.php (13)
+2014/07/16 16:05:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tiav.alumonst' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `alumonst`.
+in C:\xampp\htdocs\alumno\index.php (13)
+2014/07/16 16:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "alumno".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('alumno')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\alumno\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/alumno/index.php?r=alumno
+---
